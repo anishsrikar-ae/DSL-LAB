@@ -128,7 +128,7 @@ int countLeafNodes(Node *root) {
            countLeafNodes(root->right);
 }
 
-int main(void) {
+int main() {
     Node *root = newNode(1);
     root->left = newNode(2);
     root->right = newNode(3);
